@@ -216,4 +216,45 @@ main .plan-container .in-card-container .speciality h6 {
 
 main .plan-container .in-card-container .longer {
     height: 200px;
+    /* test */
 }
+
+main .horizontal-card {
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+
+    border: 1px solid green;
+    /* test */
+}
+
+main .horizontal-card .flex-cont {
+    display: flex;
+}
+
+main .horizontal-card .text {
+     width: 70%;
+     height: 160px;
+     padding: 20px 10px;
+     
+     border: 1px solid orange;
+     /* test */
+}
+
+main .horizontal-card .text #title {
+    margin-bottom: 20px;
+}
+
+main .horizontal-card .text p {
+    margin-top: 20px;
+}
+
+main .horizontal-card .btn {
+    width: 30%;
+    height: 160px;
+
+    border: 1px solid orange;
+     /* test */
+}
+
+
