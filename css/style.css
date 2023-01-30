@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    border: 1px solid purple;
+    /* test */
+}
+
+nav .nav-left, .nav-right {
+    width: 20%;
+    height: 30px;
+    border: 1px solid red;
+    /* test */
+}
+
+nav .nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+}
+
+nav .nav-list li {
+    width: 20%;
+    height: 30px;
+    border: 1px solid orange;
+    /* test */
+}
