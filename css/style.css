@@ -133,21 +133,87 @@ main .in-card-container {
 main .card {
     width: calc(100% / 3);
 
-    height: 600px;
+    
     border: 1px solid green;
+    /* test */
 }
 
 main .type {
     height: 40px;
     border: 1px solid red;
+    /* test */
 }
 
 
 main  .plan-container .in-card-container .plan h2 {
     margin: 10px 0;
+
+    border: 1px solid orange;
+    /* test */
+}
+
+main  .plan-container .in-card-container .plan .price {
+    border: 1px solid orange;
+    /* test */
 }
 
 main .plan-container .in-card-container .plan .timeliness {
     margin: 10px 0;
+    border: 1px solid orange;
+    /* test */
 }
 
+main .plan-container .in-card-container .details{
+    display: flex;
+    margin-top: 50px;
+}
+
+main .plan-container .in-card-container .details .icon {
+    width: 10%;
+    height: 100px;
+
+    border: 1px solid orange;
+    /* test */
+}
+
+main .plan-container .in-card-container .details .icon-text {
+    width: 90%;
+    height: 100px;
+
+    border: 1px solid orange;
+    /* text */
+}
+
+main .plan-container .in-card-container .btn {
+    margin-top: 30px;
+    text-align: center;
+}
+
+main .plan-container .in-card-container .buy-now {
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+
+    border: 1px solid orange;
+    /* test */
+}
+
+main .plan-container .in-card-container .speciality {
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+
+    border: 1px solid orange;
+    /* test */
+}
+
+main .plan-container .in-card-container .speciality h6 {
+    
+    
+    border: 1px solid orange;
+    /* test */
+}
+
+main .plan-container .in-card-container .longer {
+    height: 200px;
+}
