@@ -15,21 +15,38 @@ nav {
     background-color: white;
 }
 
+
 nav .nav-left, .nav-right {
-    width: 20%;
+    width: 30%;
     height: 30px;
     border: 1px solid red;
     /* test */
 }
 
-nav .nav-list {
-    list-style-type: none;
+
+nav .nav-list-left {
     display: flex;
-    justify-content: end;
+    flex-direction: row;
+
 }
 
-nav .nav-list li {
-    width: 20%;
+nav .nav-list-left {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    /* width: 70%; */
+}
+
+nav .nav-list-right {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    /* width: 70%; */
+}
+
+
+nav li {
+    width: 10%;
     height: 30px;
     border: 1px solid orange;
     /* test */
@@ -77,3 +94,60 @@ header .head-container .img {
     border: 1px solid blue;
     /* test */
 }
+
+/* main */
+
+main {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 1px solid red;
+}
+
+main .title {
+    margin-top: 100px;
+
+
+    border: 1px solid orange;
+    /* test */
+}
+
+main .fatturazione {
+    width: 20%;
+    height: 30px;
+    border: 1px solid orange;
+    margin: 20px 0;
+    /* test */
+}
+
+main .plan-container {
+    display: flex;
+    gap: 20px;
+}
+
+main .in-card-container {
+    padding: 20px;
+}
+
+main .card {
+    width: calc(100% / 3);
+
+    height: 600px;
+    border: 1px solid green;
+}
+
+main .type {
+    height: 40px;
+    border: 1px solid red;
+}
+
+
+main  .plan-container .in-card-container .plan h2 {
+    margin: 10px 0;
+}
+
+main .plan-container .in-card-container .plan .timeliness {
+    margin: 10px 0;
+}
+
