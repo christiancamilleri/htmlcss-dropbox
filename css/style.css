@@ -139,7 +139,7 @@ main .plan-container {
 }
 
 main .in-card-container {
-    padding: 30px;
+    padding: 20px;
     display: flex;
     flex-flow: column nowrap;
     flex-grow: 1
