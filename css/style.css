@@ -402,7 +402,12 @@ main #team h1 {
 }
 
 .bring-dropbox .agency {
-    padding: 50px;
+    padding: 100px;
+}
+
+.bring-dropbox .agency h3 {
+    font-size: 2em;
+    color: #61082b;
 }
 /* faq */
 .faq {
