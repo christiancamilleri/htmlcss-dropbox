@@ -223,13 +223,10 @@ main .plan-container .in-card-container .speciality {
     gap: 5px;
 }
 
-main .horizontal-card {
-    width: 100%;
-    height: 200px;
+main .horizontal-card {;
     margin-top: 50px;
 
-    border: 1px solid green;
-    /* test */
+    border: 1px solid #dcdcde;
 }
 
 main .horizontal-card .flex-cont {
@@ -238,11 +235,8 @@ main .horizontal-card .flex-cont {
 
 main .horizontal-card .text {
      width: 70%;
-     height: 160px;
-     padding: 20px 10px;
+     padding: 30px 10px;
      
-     border: 1px solid orange;
-     /* test */
 }
 
 main .horizontal-card .text #title {
@@ -250,16 +244,13 @@ main .horizontal-card .text #title {
 }
 
 main .horizontal-card .text p {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
-main .horizontal-card .btn {
-    width: 30%;
-    height: 160px;
-
-    border: 1px solid orange;
-     /* test */
+main .horizontal-card button {
+    margin: 20px 20px 0 20px;
 }
+
 
 main .text-img-container {
     width: 100%;
