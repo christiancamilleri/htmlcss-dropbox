@@ -18,6 +18,10 @@
     color: white;
 }
 
+.btn-secondary {
+    border: 1px solid black;
+}
+
 /* nav */
 nav {
     position: fixed;
@@ -253,28 +257,21 @@ main .horizontal-card button {
 
 
 main .text-img-container {
-    width: 100%;
-    height: 300px;
     margin-top: 70px;
     display: flex;
-
-    border: 1px solid orange;
-    /* test */
 }
 
 main .text-img-container .box-img {
-    width: 60%;
-    height: 100%;
-    border: 1px solid red;
-    /* test */
+    width: 70%;
+}
+
+main .text-img-container .box-img img {
+    width: 100%;
 }
 
 main .text-img-container .box-text {
     width: 40%;
-    height: 100%;
-    padding: 20px;
-    border: 1px solid red;
-    /* test */
+    padding: 40px 20px;
 }
 
 main .text-img-container .box-text p {
