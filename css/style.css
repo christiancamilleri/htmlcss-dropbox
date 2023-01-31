@@ -364,7 +364,7 @@ main #team h1 {
 .feautured-center {
     flex-grow: 1;
 }
-
+/* bring-dropbox */
 .bring-dropbox {
     display: flex;
     align-items: center;
@@ -376,7 +376,7 @@ main #team h1 {
 .bring-dropbox .agency {
     padding: 50px;
 }
-
+/* faq */
 .faq {
     max-width: 800px;
     margin-left: auto;
@@ -401,4 +401,51 @@ main #team h1 {
 .faq  ul li .fa-chevron-down {
     position: absolute;
     right: 20px;
+}
+
+/* footer */
+footer {
+    
+    background-color: black;
+}
+
+footer .foot-container {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li:first-child {
+    padding: 10px 0;
+    font-size: 1em;
+    
+}
+
+footer ul li {
+    color: white;
+    font-size: 0.7em;
+    padding: 0.5em 0;
+}
+
+footer .language {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 0.6em;
+    padding-bottom: 30px;
+    opacity: 0.4;
+}
+
+footer .language hr {
+    width: 5%;
+    margin: 20px 0;
 }
