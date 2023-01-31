@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+body {
+    font-size: 0.8em;
+}
+
+.btn {
+    padding: 5px 20px;
+    border: none;
+}
+
 /* nav */
 nav {
     position: fixed;
@@ -29,12 +38,12 @@ nav ul {
 }
 
 
-li {
+nav li {
     margin: 5px;
     font-size: 0.8em;
 }
 
-ul:hover li {
+nav ul:hover li {
     margin-bottom: 1px solid black;
     cursor: pointer;
 }
@@ -354,4 +363,42 @@ main #team h1 {
 
 .feautured-center {
     flex-grow: 1;
+}
+
+.bring-dropbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    background-color:  #b4d0e7;
+}
+
+.bring-dropbox .agency {
+    padding: 50px;
+}
+
+.faq {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.faq h3 {
+    margin-bottom: 30px;
+}
+
+.faq ul {
+    list-style-type: none;
+}
+
+.faq ul li {
+    padding: 20px 0;
+    position: relative;
+}
+
+.faq  ul li .fa-chevron-down {
+    position: absolute;
+    right: 20px;
 }
