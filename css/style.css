@@ -324,20 +324,74 @@ main #team h1 {
     width: calc(100vw / 3);
     height: calc(100vw /3);
 
-    background-color: red;
-    /* test */
 }
 
 .feautured .square {
     width: 50%;
     height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-    border: 1px solid black;
+.feautured .green {
+    background-color: #a2d39b;
+    border: 15px solid #d1e9cd;
+}
+
+.feautured .bordeaux {
+    background-color: #61082b;
+}
+
+.feautured .lightblue {
+    background-color: #1393ce;
+}
+
+.feautured .red1 {
+    background-color: #fd1c1c;
+}
+
+.feautured .red2 {
+    background-color: #d5001f;
+}
+
+.feautured .hearst {
+    background-color: #b4d0e7;
+}
+
+.feautured .blue {
+    background-color: #0d2481;
+}
+
+.feautured .yellow {
+    background-color: #fed830;
+}
+
+.feautured .square img {
+  width: 50%;
+  filter: invert(1);
 }
 
 .feautured-center {
-    flex-grow: 1;
+    width: calc(100% / 3);
+    background-color: #f5f5f5;
 }
+
+.feautured-center .designit-box {
+    padding: 40px;
+}
+
+.feautured-center .designit-box hr {
+    width: 50px;
+    margin: 40px 0;
+}
+
+.feautured-center .designit-box p {
+    margin-bottom: 40px;
+}
+
+
+
 /* bring-dropbox */
 .bring-dropbox {
     display: flex;
