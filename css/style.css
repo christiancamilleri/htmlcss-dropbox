@@ -327,3 +327,31 @@ main #team {
 main #team h1 {
     margin-bottom: 30px;
 }
+/* /main */
+
+/* feautured */
+.feautured {
+    display: flex;
+}
+
+.feautured-left, .feautured-right {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: calc(100vw / 3);
+    height: calc(100vw /3);
+
+    background-color: red;
+    /* test */
+}
+
+.feautured .square {
+    width: 50%;
+    height: 50%;
+
+    border: 1px solid black;
+}
+
+.feautured-center {
+    flex-grow: 1;
+}
