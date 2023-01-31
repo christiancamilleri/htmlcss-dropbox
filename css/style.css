@@ -13,44 +13,42 @@ nav {
     justify-content: space-between;
 
     background-color: white;
-    border: 5px solid green;
 }
 
 
 nav .nav-left, .nav-right {
-    width: 30%;
     height: 30px;
-    border: 1px solid red;
-    /* test */
-}
-
-
-nav .nav-list-left {
     display: flex;
     flex-direction: row;
-
 }
 
-nav .nav-list-left {
-    list-style-type: none;
+nav ul {
     display: flex;
-    justify-content: flex-end;
-    /* width: 70%; */
-}
-
-nav .nav-list-right {
+    gap: 20px;
     list-style-type: none;
-    display: flex;
-    justify-content: flex-start;
-    /* width: 70%; */
 }
 
 
-nav li {
-    width: 10%;
-    height: 30px;
-    border: 1px solid orange;
-    /* test */
+li {
+    margin: 5px;
+    font-size: 0.8em;
+}
+
+ul:hover li {
+    margin-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.logo {
+    align-items: center;
+}
+
+nav .btn {
+    font-size: 0.8em;
+    background-color: #0e61ff;
+    color: white;
+    border: none;
+    padding: 3px 6px;
 }
 
 /* header */
@@ -59,6 +57,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    background-color: #b4d0e7;
 
     height: 400px;
     /* test */
@@ -92,6 +91,7 @@ header .head-container .paragraph {
 header .head-container .img {
     width: 70%;
     height: 200px;
+    margin-bottom: -40px;
     border: 1px solid blue;
     /* test */
 }
