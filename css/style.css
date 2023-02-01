@@ -209,6 +209,9 @@ main .plan-container .in-card-container .icon-text {
 main .plan-container .in-card-container .bottone {
     margin-top: 30px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 main .plan-container .in-card-container .buy-now {
