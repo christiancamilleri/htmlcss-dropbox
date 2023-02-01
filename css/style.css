@@ -381,6 +381,10 @@ main #team h1 {
     padding: 40px;
 }
 
+.feautured-center .designit-box img {
+    width: 50%;
+}
+
 .feautured-center .designit-box hr {
     width: 50px;
     margin: 40px 0;
