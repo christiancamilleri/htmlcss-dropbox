@@ -31,6 +31,7 @@ nav {
     justify-content: space-between;
 
     background-color: white;
+    z-index: 2;
 }
 
 
@@ -48,17 +49,17 @@ nav ul {
 
 
 nav li {
-    margin: 5px;
+    padding: 0.5em;
     font-size: 0.8em;
 }
 
-nav ul:hover li {
-    margin-bottom: 1px solid black;
-    cursor: pointer;
+nav ul li.border-bottom:hover  {
+    border-bottom: 2px solid black;
+    cursor: pointer; 
 }
 
 .logo {
-    align-items: center;
+    cursor: pointer;
 }
 
 nav .btn {
