@@ -11,6 +11,7 @@
 .btn {
     padding: 5px 20px;
     border: none;
+    cursor: pointer;
 }
 
 .btn-primary {
@@ -110,6 +111,7 @@ header .head-container .paragraph .fa-arrow-down {
     position: absolute;
     left: 0;
     bottom: 0;
+    color: black;
 }
 
 header .head-container .img {
