@@ -8,6 +8,8 @@
     font-size: 0.7em;
 } */
 
+
+/* btn common */
 .btn {
     padding: 5px 20px;
     border: none;
@@ -21,6 +23,10 @@
 
 .btn-secondary {
     border: 1px solid black;
+}
+
+.btn:hover {
+    background-color: #3b7aff;
 }
 
 /* nav */
@@ -37,17 +43,16 @@ nav {
 
 
 nav .nav-left, .nav-right {
-    height: 30px;
     display: flex;
     flex-direction: row;
 }
 
 nav ul {
     display: flex;
+    align-items: center;
     gap: 20px;
     list-style-type: none;
 }
-
 
 nav li {
     padding: 0.5em;
@@ -96,6 +101,7 @@ header .head-container .head-box {
 header .head-container .paragraph {
     position: relative;
     padding-bottom: 3em;
+    padding-top: 2em;
 }
 
 header .head-container .paragraph p {
@@ -447,11 +453,10 @@ main #team h1 {
 .faq ul li p {
     margin-top: 2em;
     display: none; 
-    transition: block 5s;
 }
 
 .faq ul li:hover p {
-    display: block;   
+    display: block; 
 }
 
 .faq  ul li .fa-chevron-down {
