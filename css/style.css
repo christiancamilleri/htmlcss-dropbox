@@ -99,7 +99,7 @@ header .head-container .paragraph {
 }
 
 header .head-container .paragraph p {
-    padding: 20px 0;
+    padding: 1.5em 0;
 }
 
 header .head-container .paragraph button {
@@ -115,7 +115,7 @@ header .head-container .paragraph .fa-arrow-down {
 }
 
 header .head-container .img {
-    padding: 10px 0;
+    padding: 1em 0;
     margin-bottom: -60px;
 }
 
@@ -227,7 +227,7 @@ main .plan-container .in-card-container hr {
 } 
 
 main .plan-container .in-card-container h4 {
-    padding: 20px 0;
+    padding: 1.5em 0;
 }
 
 main .plan-container .in-card-container .speciality {
@@ -247,7 +247,7 @@ main .horizontal-card .flex-cont {
 
 main .horizontal-card .text {
      width: 70%;
-     padding: 30px 10px;
+     padding: 1.5em 1em;
      
 }
 
@@ -279,11 +279,11 @@ main .text-img-container .box-img img {
 
 main .text-img-container .box-text {
     width: 40%;
-    padding: 40px 20px;
+    padding: 2.5em 1.5em;
 }
 
 main .text-img-container .box-text p {
-    padding: 10px 0 20px 0;
+    padding: 0.8em 0 1.5em 0;
 }
 
 #dropbox-business {
@@ -307,7 +307,7 @@ main .business-container .opzioni .img img {
 }
 
 main .business-container .opzioni h3 {
-    padding: 10px 0;
+    padding: 0.8em 0;
 }
 
 main #team {
@@ -388,7 +388,7 @@ main #team h1 {
     width: calc(100% / 3);
     height: calc(100vw / 3);
     overflow-y: auto;
-    padding: 40px;
+    padding: 1.5em;
     background-color: #f5f5f5;
 }
 
@@ -415,7 +415,7 @@ main #team h1 {
 }
 
 .bring-dropbox .agency {
-    padding: 100px;
+    padding: 5em;
 }
 
 .bring-dropbox .agency h3 {
@@ -440,8 +440,18 @@ main #team h1 {
 }
 
 .faq ul li {
-    padding: 20px 0;
+    padding: 2em 1em;
     position: relative;
+}
+
+.faq ul li p {
+    margin-top: 2em;
+    display: none; 
+    transition: block 5s;
+}
+
+.faq ul li:hover p {
+    display: block;   
 }
 
 .faq  ul li .fa-chevron-down {
@@ -459,7 +469,7 @@ footer .foot-container {
     max-width: 70%;
     margin-left: auto;
     margin-right: auto;
-    padding: 30px 0;
+    padding: 2em 0;
 
     display: flex;
     justify-content: space-between;
@@ -470,7 +480,7 @@ footer ul {
 }
 
 footer li:first-child {
-    padding: 10px 0;
+    padding: 0.8em 0;
     font-size: 1em;
     
 }
