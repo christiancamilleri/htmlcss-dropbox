@@ -342,9 +342,13 @@ main #team h1 {
     justify-content: center;
 }
 
+.feautured .square:hover {
+    border: 15px solid rgba(0, 0, 0, 0.2);
+}
+
 .feautured .green {
     background-color: #a2d39b;
-    border: 15px solid #d1e9cd;
+    
 }
 
 .feautured .bordeaux {
