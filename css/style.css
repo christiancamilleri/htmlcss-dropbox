@@ -448,15 +448,17 @@ main #team h1 {
 .faq ul li {
     padding: 2em 1em;
     position: relative;
+    max-height: 3em;
+    overflow: hidden;
+    transition: all 0.8s ease;
 }
 
 .faq ul li p {
-    margin-top: 2em;
-    display: none; 
+    margin-top: 2em; 
 }
 
-.faq ul li:hover p {
-    display: block; 
+.faq ul li:hover {
+    max-height: 30em; 
 }
 
 .faq  ul li .fa-chevron-down {
@@ -494,6 +496,10 @@ footer ul li {
     color: white;
     font-size: 0.7em;
     padding: 0.5em 0;
+}
+
+footer li:hover {
+    border-bottom: 1px solid white
 }
 
 footer .language {
